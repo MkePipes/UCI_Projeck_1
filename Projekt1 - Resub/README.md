@@ -81,7 +81,8 @@ Run ansible playbook
 Run ELK playbook
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-![docker_ps](https://user-images.githubusercontent.com/85429397/137215855-79a2e4dc-57d6-469e-afbb-779773f31e37.PNG)
+![V1docker_ps](https://user-images.githubusercontent.com/85429397/137216327-100b7395-647a-4db6-acef-d7aa2c892b83.PNG)
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
