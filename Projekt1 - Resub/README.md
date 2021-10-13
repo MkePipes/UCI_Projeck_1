@@ -1,6 +1,6 @@
 
 
-[NEW_V2_Project_1_Diagram.drawio.pdf](https://github.com/MkePipes/UCI_Projeck_1/files/7341420/NEW_V2_Project_1_Diagram.drawio.pdf)
+https://drive.google.com/file/d/12fbKt3HHvfUO2y8hPKd8XaYD2ZCajOfk/view?usp=sharing
 
 
 
