@@ -1,10 +1,4 @@
-
-
-https://drive.google.com/file/d/12fbKt3HHvfUO2y8hPKd8XaYD2ZCajOfk/view?usp=sharing
-
 ![NEW_V2_Project_1_Diagram](https://user-images.githubusercontent.com/85429397/137213728-a0937d53-e0aa-4404-acc4-e6f3f2732e89.jpg)
-
-
 
 ## Executive Summary
 
