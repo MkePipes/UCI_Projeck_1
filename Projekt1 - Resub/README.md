@@ -1,4 +1,4 @@
-![NEW_V2_Project_1_Diagram](https://user-images.githubusercontent.com/85429397/137213728-a0937d53-e0aa-4404-acc4-e6f3f2732e89.jpg)
+![NEW_V2_Project_1_Diagram](https://user-images.githubusercontent.com/85429397/137214263-231cf592-8130-47c8-a124-0db9b81a720d.jpg)
 
 ## Executive Summary
 
