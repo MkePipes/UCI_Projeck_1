@@ -1,3 +1,10 @@
+
+
+[NEW_V2_Project_1_Diagram.drawio.pdf](https://github.com/MkePipes/UCI_Projeck_1/files/7341420/NEW_V2_Project_1_Diagram.drawio.pdf)
+
+
+
+
 ## Executive Summary
 
 This is a server network setup with Virtual Machines in AWS cloud. The 2 main servers are both controlled by a jumpbox running an ansible container. The job box can also communicate with an ELKbox container which has an ELK stack for monitoring file logs and metrics of the other 3 machines. The 3 machines of jumpbox and webservers 1 and 2 are in the web servers security group and only accessible on port 22 through the jump box or elk box, but are accessible to HTTP on port 80 through a load balancer. The elk box is in an ELK security group which allows access from host machine and to webservers 1 and 2. Webserver 2 is placed in an alternative subnet to ensure high availability zones are supported. 
