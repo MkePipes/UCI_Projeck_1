@@ -21,8 +21,6 @@ This document contains the following details:
   - Machines Being Monitored
 - How to Use the Ansible Build
 
-https://drive.google.com/file/d/1UfhtbVioCxDv2g-ByDgimXAvPFSaF62R/view?usp=sharing
-
 ### Description of the Topology
 ![NEW_V2_Project_1_Diagram (1)](https://user-images.githubusercontent.com/85429397/137578087-6c534f4b-882f-4db1-a4ae-7408df09b71d.jpg)
 
