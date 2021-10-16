@@ -76,7 +76,7 @@ The playbook implements the following tasks:
 - Run metricbeat install
 - Run filebeat install
 
-The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+The following screenshot displays the result of running `docker ps` before and after successfully configuring the ELK instance.
 
 ![docker_ps](https://user-images.githubusercontent.com/85429397/137578176-fbd6e673-c9c6-4e7b-b3e9-80711fa7e21f.PNG)
 
