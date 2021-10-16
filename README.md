@@ -67,7 +67,6 @@ The playbook implements the following tasks:
 
 - Install docker ansible on EC2 instance
 - Start Apache
-- Run ansible install
 - Setup the Containers
 - Attach the container
 - Start container bash shell
