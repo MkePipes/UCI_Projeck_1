@@ -22,7 +22,7 @@ This document contains the following details:
 - How to Use the Ansible Build
 
 ### Description of the Topology
-![NEW_V2_Project_1_Diagram](https://user-images.githubusercontent.com/85429397/137603065-b67f83a6-9ef8-4a30-b29d-b5271d17126f.jpg)
+![NEW_V2_Project_1_Diagram drawio](https://user-images.githubusercontent.com/85429397/137603357-85b7ae83-22da-4232-a779-4396af23496c.png)
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
  
