@@ -8,6 +8,9 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _Playbook.yml_ file may be used to install only certain pieces of it, such as Filebeat.
 
+https://drive.google.com/file/d/1FGytDFPDfEZckPkyy0McD4bjLHotwIlR/view?usp=sharing
+https://drive.google.com/file/d/1EOVHgGPPu-4zdcsIES2OrNNKIW2LJU1a/view?usp=sharing
+https://drive.google.com/file/d/1hyCgvcKg-P7eOz9WF2rrV0kmmVoTiDcL/view?usp=sharing
 
 This document contains the following details:
 - Description of the Topology
@@ -17,8 +20,10 @@ This document contains the following details:
   - Machines Being Monitored
 - How to Use the Ansible Build
 
+https://drive.google.com/file/d/1UfhtbVioCxDv2g-ByDgimXAvPFSaF62R/view?usp=sharing
 
 ### Description of the Topology
+![NEW_V2_Project_1_Diagram (1)](https://user-images.githubusercontent.com/85429397/137578087-6c534f4b-882f-4db1-a4ae-7408df09b71d.jpg)
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
@@ -78,12 +83,12 @@ Run ELK playbook
 Run metricbeat
 Run filebeat playbooks
 
-- ...
-- ...
-
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://drive.google.com/file/d/1kYfOnpYsvRAq76fzltvmozRwuhuXp_PH/view?usp=sharing
+![docker_ps](https://user-images.githubusercontent.com/85429397/137578176-fbd6e673-c9c6-4e7b-b3e9-80711fa7e21f.PNG)
+
+![V1docker_ps](https://user-images.githubusercontent.com/85429397/137578180-4403b21a-850f-426f-99f7-39379dda1770.PNG)
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines, with installed beats:
