@@ -1,4 +1,4 @@
-# UCI_Projeck_1
+# UCI_Projekt_1_Complete
 UCI ELK Stack project
 ## Executive Summary
 
