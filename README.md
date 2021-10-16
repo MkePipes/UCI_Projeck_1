@@ -6,7 +6,7 @@ This is a server network setup with Virtual Machines in AWS cloud. The 2 main se
 
 The files in this repository were used to configure the network depicted below.
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _Playbook.yml_ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on AWS. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
 
 - https://github.com/MkePipes/UCI_Projeck_1/blob/main/apacheplaybook.yaml
 - https://github.com/MkePipes/UCI_Projeck_1/blob/main/Docker-file.yaml
