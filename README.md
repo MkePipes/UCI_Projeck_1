@@ -22,7 +22,7 @@ This document contains the following details:
 - How to Use the Ansible Build
 
 ### Description of the Topology
-![NEW_V2_Project_1_Diagram (1)](https://user-images.githubusercontent.com/85429397/137578087-6c534f4b-882f-4db1-a4ae-7408df09b71d.jpg)
+![NEW_V2_Project_1_Diagram](https://user-images.githubusercontent.com/85429397/137603065-b67f83a6-9ef8-4a30-b29d-b5271d17126f.jpg)
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
  
@@ -46,8 +46,8 @@ The machines on the internal network are not exposed to the public Internet.
 Only the JumpBox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - Personal IP
 
-Machines within the network can only be accessed by _JumpBox_.
-- Jump Box 18.191.237.107:22
+Machines within the network can only be accessed by the JumpBox.
+- Jump Box 172.31.7.186:22
 
 A summary of the access policies in place can be found in the table below.
 
@@ -60,8 +60,8 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- Limits the likelihood of manual errors and speeds the process
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, this is advantageous because it limits the likelihood of manual errors 
+and speeds the process
 
 The playbook implements the following tasks:
 
@@ -90,7 +90,7 @@ This ELK server is configured to monitor the following machines, with installed 
   Metric Beat
   File Beat
 
-The Beats allow us to collect information from each machine are; FileBeat which collects log data from machines for later inspection and Metric which Beat collects hardware statistics such as usage and network status.
+The Beats which allow us to collect information from each machine are; FileBeat which collects log data from machines for later inspection and Metric which Beat collects hardware statistics such as usage and network status.
 
 ### Using the Playbook
 
