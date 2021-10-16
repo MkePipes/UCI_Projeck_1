@@ -85,9 +85,9 @@ The following screenshot displays the result of running `docker ps` before and a
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines, with installed beats:
 - Webserver1 172.31.0.193 
-  Webserver2 172.31.22.82 
-  Metric Beat
-  File Beat
+- Webserver2 172.31.22.82 
+- Metric Beat
+- File Beat
 
 The Beats which allow us to collect information from each machine are; FileBeat which collects log data from machines for later inspection and Metric which Beat collects hardware statistics such as usage and network status.
 
