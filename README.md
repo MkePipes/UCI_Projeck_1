@@ -1,5 +1,3 @@
-# UCI_Projekt_1_Complete
-UCI ELK Stack project
 ## Executive Summary
 
 This is a server network setup with Virtual Machines in AWS cloud. The 2 main servers are both accessed through a jumpbox running an ansible container. The job box can also communicate with an ELKbox container which has an ELK stack for monitoring file logs and metrics of the other webservers running DVWA. All 3 machines; the jumpbox and webservers 1 and 2 are in the webservers security group and accessible on port 22 SSH through the jump box, but are also accessible on HTTP through port 80 through a load balancer. The elk box is in an ELK security group which allows access to webservers 1 and 2. Webserver 2 is placed in an alternative subnet to ensure high availability zones are supported. 
@@ -10,9 +8,6 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _Playbook.yml_ file may be used to install only certain pieces of it, such as Filebeat.
 
-https://drive.google.com/file/d/1pI94xw0vbL6Rf78bKrhrfB6IpuruV5rT/view?usp=sharing
-https://drive.google.com/file/d/1vh8odH40BEWp3LiID4VzDMbPOKK3KVKF/view?usp=sharing
-https://drive.google.com/file/d/1CRE5gaU47rT7vm5F8WK9qsNb3UfAwgkU/view?usp=sharing
 
 This document contains the following details:
 - Description of the Topology
@@ -22,10 +17,8 @@ This document contains the following details:
   - Machines Being Monitored
 - How to Use the Ansible Build
 
-https://drive.google.com/file/d/1vaBwV3qH_JXGxUiHjuPn1lMvQXM7Cuy8/view?usp=sharing
 
 ### Description of the Topology
-![NEW_V2_Project_1_Diagram (1)](https://user-images.githubusercontent.com/85429397/137577854-cfa1552b-f7f4-4803-a285-632dba395ed4.jpg)
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
@@ -85,11 +78,12 @@ Run ELK playbook
 Run metricbeat
 Run filebeat playbooks
 
+- ...
+- ...
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![docker_ps](https://user-images.githubusercontent.com/85429397/137577781-f6d080c6-2cce-4f1a-8d2a-2a00e95b724c.PNG)
-![V1docker_ps](https://user-images.githubusercontent.com/85429397/137577891-af05a3cd-2755-4645-8ddf-063d961b73e1.PNG)
+https://drive.google.com/file/d/1kYfOnpYsvRAq76fzltvmozRwuhuXp_PH/view?usp=sharing
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines, with installed beats:
