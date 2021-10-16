@@ -1,6 +1,6 @@
 ## Executive Summary
 
-This is a server network setup with Virtual Machines in AWS cloud. The 2 main servers are both accessed through a jumpbox running an ansible container. The job box can also communicate with an ELKbox container which has an ELK stack for monitoring file logs and metrics of the other webservers running DVWA. All 3 machines; the jumpbox and webservers 1 and 2 are in the webservers security group and accessible on port 22 SSH through the jump box, but are also accessible on HTTP through port 80 through a load balancer. The elk box is in an ELK security group which allows access to webservers 1 and 2. Webserver 2 is placed in an alternative subnet to ensure high availability zones are supported. 
+This is a server network setup with Virtual Machines in AWS cloud. The 2 main servers are both accessed through a jumpbox running an ansible container. The job box can also communicate with an ELKbox container which has an ELK stack for monitoring file logs and metrics of the other webservers. All 3 machines; the jumpbox and webservers 1 and 2 are in the webservers security group and accessible on port 22 SSH through the jump box, but are also accessible on HTTP through port 80 through a load balancer. The elk box is in an ELK security group which allows access to webservers 1 and 2. Webserver 2 is placed in an alternative subnet to ensure high availability zones are supported. 
 
 ## Automated ELK Stack Deployment
 
