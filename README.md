@@ -65,17 +65,17 @@ and speeds the process
 
 The playbook implements the following tasks:
 
-Install docker ansible on EC2 instance
-Start Apache
-Run ansible install
-Setup the Containers
-Attach the container
-Start container bash shell
-Update hosts file
-Update config file
-Run ELK deployment
-Run metricbeat install
-Run filebeat install
+- Install docker ansible on EC2 instance
+- Start Apache
+- Run ansible install
+- Setup the Containers
+- Attach the container
+- Start container bash shell
+- Update hosts file
+- Update config file
+- Run ELK deployment
+- Run metricbeat install
+- Run filebeat install
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
