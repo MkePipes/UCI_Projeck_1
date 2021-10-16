@@ -89,6 +89,7 @@ Run filebeat playbooks
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![docker_ps](https://user-images.githubusercontent.com/85429397/137577781-f6d080c6-2cce-4f1a-8d2a-2a00e95b724c.PNG)
+![V1docker_ps](https://user-images.githubusercontent.com/85429397/137577891-af05a3cd-2755-4645-8ddf-063d961b73e1.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines, with installed beats:
