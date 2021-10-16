@@ -25,6 +25,7 @@ This document contains the following details:
 https://drive.google.com/file/d/1vaBwV3qH_JXGxUiHjuPn1lMvQXM7Cuy8/view?usp=sharing
 
 ### Description of the Topology
+![NEW_V2_Project_1_Diagram (1)](https://user-images.githubusercontent.com/85429397/137577854-cfa1552b-f7f4-4803-a285-632dba395ed4.jpg)
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
@@ -84,12 +85,10 @@ Run ELK playbook
 Run metricbeat
 Run filebeat playbooks
 
-- ...
-- ...
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://drive.google.com/file/d/1kYfOnpYsvRAq76fzltvmozRwuhuXp_PH/view?usp=sharing
+![docker_ps](https://user-images.githubusercontent.com/85429397/137577781-f6d080c6-2cce-4f1a-8d2a-2a00e95b724c.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines, with installed beats:
