@@ -101,4 +101,4 @@ SSH into the control node and follow the steps below:
 - ansible playbook requires copy to the /etc/ansible dir
 - Copy the Hosts file in /etc/ansible and update webservers group and create group for ELK server
 
-- To verify that the ELK server is running navigate to Kibana.com:5601
+- To verify that the ELK server is running navigate to 3.12.160.198:5601
